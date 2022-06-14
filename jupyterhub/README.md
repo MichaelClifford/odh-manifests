@@ -105,6 +105,10 @@ Contains build chain manifest for CUDA 11.0.3 enabled ubi 8 based images with py
 
 *NOTE:* Builds in this overlay require 4-6 GB of memory
 
+#### [odh-ray-cluster](notebook-images/overlays/odh-ray-cluster/)
+
+Contains deployment manifests for Ray setup with ODH jupyterhub.
+
 ## Deploying JupyterHub notebooks to custom namespaces
 
 JupyterHub has support for deploying notebooks to other namespaces. To help facilitate this, we provide a component under `jupyterhub/custom-notebook-deployment`. The steps to deploy are as follows:
