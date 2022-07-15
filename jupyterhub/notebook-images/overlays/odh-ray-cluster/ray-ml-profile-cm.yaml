@@ -14,9 +14,6 @@ data:
           # expose to jupyter users as a convenience
           - name: RAY_DASH_URL
             value: 'http://$(RAY_DASH_HOST)'
-          # this is a workaround that may not be neccesary in the future
-          - name: RAY_CLIENT_MODE
-            value: '1'
         services:
           ray-cluster:
             resources:
